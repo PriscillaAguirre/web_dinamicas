@@ -1,13 +1,13 @@
 body {
     font-family: sans-serif;
-    background-color: #2e2e2e; /* Color de fondo general para evitar bordes */
+    background-color: #2e2e2e; 
     margin: 0;
     padding: 0;
 }
 
 /* Navbar */
 .custom-navbar {
-    background: linear-gradient(to right, #4a007c, #007bff); /* Degradado de la imagen */
+    background: linear-gradient(to right, #4a007c, #007bff); 
     padding: 1rem 2rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
@@ -31,7 +31,7 @@ body {
 
 .custom-btn-outline {
     background-color: transparent;
-    border: 1px solid #c117ca; /* Borde azul de la imagen */
+    border: 1px solid #c117ca; 
     color: #c117ca; 
     padding: 0.5rem 1.2rem;
     border-radius: 5px;
@@ -46,7 +46,7 @@ body {
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(to right, #4a007c, #007bff); /* Degradado similar al navbar */
+    background: linear-gradient(to right, #4a007c, #007bff); 
     padding: 6rem 0; /* Espaciado interno */
     min-height: 400px; /* Altura mínima para que se vea el contenido */
     display: flex;
@@ -65,16 +65,16 @@ body {
 
 /* Carrusel */
 .custom-carousel {
-    background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente como en la imagen */
-    border: 2px solid #007bff; /* Borde azul */
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid #007bff;
     border-radius: 8px;
-    padding: 0.5rem; /* Reducir un poco el padding si la imagen debe ir casi al borde */
+    padding: 0.5rem; 
     height: 250px; /* Altura fija para el carrusel */
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden; /* Asegura que el contenido no se desborde */
-    backdrop-filter: blur(5px); /* Efecto de desenfoque detrás del carrusel */
+    backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px); /* Para compatibilidad con Safari */
 }
 
@@ -85,22 +85,22 @@ body {
 .custom-carousel .carousel-item {
     height: 100%;
     display: flex; /* Usar flexbox para centrar y alinear el contenido dentro del item */
-    align-items: center; /* Centrar verticalmente el contenido */
-    justify-content: center; /* Centrar horizontalmente el contenido */
-    text-align: center; /* Asegurar que el texto esté centrado si no está superpuesto */
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
 }
 
 .custom-carousel-item-content {
-    background-color: transparent; /* Fondo transparente */
+    background-color: transparent; 
     color: #ffffff;
-    padding: 0; /* Asegurarse de que no haya padding que empuje la imagen */
-    width: 100%; /* Ocupa todo el ancho disponible */
+    padding: 0;
+    width: 100%; 
     height: 100%; /* Ocupa toda la altura disponible */
     display: flex;
-    flex-direction: column; /* Apila la imagen y el texto verticalmente */
-    align-items: center; /* Centra horizontalmente la imagen y el texto */
+    flex-direction: column;
+    align-items: center; 
     justify-content: center; /* Centra verticalmente si el contenido no llena todo el espacio */
-    position: relative; /* Esencial para posicionar el título de forma absoluta */
+    position: relative;
 }
 
 .carousel-book-image {
@@ -488,4 +488,5 @@ body {
     .custom-carousel-item-content {
         font-size: 1.1rem; /* Ajuste para móviles muy pequeños */
     }
+
 }
